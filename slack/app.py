@@ -21,7 +21,7 @@ logging.basicConfig(
 
 # Load environment variables from .env file
 load_dotenv(find_dotenv())
-
+print('hello world')
 # Set Slack API credentials
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 SLACK_SIGNING_SECRET = os.environ["SLACK_SIGNING_SECRET"]
